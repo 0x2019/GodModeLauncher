@@ -13,8 +13,6 @@ includelib \masm32\lib\kernel32.lib
     szOpen     db "open",0
     szGodMode  db "shell:::{ED7BA470-8E54-465E-825C-99712043E01C}",0
     szControl  db "control.exe",0
-    szRundll   db "rundll32.exe",0
-    szAppwiz   db "shell32,Control_RunDLL appwiz.cpl",0
 
 .code
 start:
